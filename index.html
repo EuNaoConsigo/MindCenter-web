@@ -17,21 +17,30 @@
           <img class="logo" src="assets\images\header\logo.png" alt="Logo" />
         </a>
 
-        <div class="header__searchbar">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <p>Buscar</p>
+        <div class="searchbar">
+          <label class="searchbar__label sr-only">Buscar</label>
+          <div class="searchbar__search">
+            <input type="search" class="search__input" placeholder="Buscar" />
+
+            <button class="searchbar__clear">
+              <i class="fa fa-xmark"></i>
+            </button>
+          </div>
+          <button class="searchbar__submit" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </div>
 
         <div class="header__right">
-          <div class="coin_container">
-            <div class="coin__simbol_box">
-              <p class="coin__simbol">C</p>
+          <div class="gem">
+            <div class="gem__simbol">
+              <i class="fa-solid fa-gem"></i>
             </div>
-            <p class="coin__value">0000</p>
+            <p class="gem__value">0000</p>
           </div>
-          <div>
+          <div class="user__icon">
             <a class="icon" href="#">
-              <img src="assets/images/header/icon_user.png" />
+              <i class="fa-regular fa-user"></i>
             </a>
           </div>
         </div>
@@ -39,11 +48,29 @@
 
       <div class="header__bottom">
         <nav class="header__nav">
-          <a class="nav__element activate" href="/index.html">Página inicial</a>
-          <a class="nav__element" href="/meditation.html">Meditação</a>
-          <a class="nav__element" href="#">Música</a>
-          <a class="nav__element" href="#">Diário</a>
-          <a class="nav__element" href="#">Consultas</a>
+          <ul class="nav__ul">
+            <li class="nav__item">
+              <a class="nav__element activate" href="/index.html"
+                >Página inicial</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__element" href="/meditation.html">Meditação</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__element" href="#">Música</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__element" href="#">Diário</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__element" href="#">Consultas</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
@@ -976,7 +1003,9 @@
       </section>
     </main>
 
-    <script      src="https://kit.fontawesome.com/126086f037.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/126086f037.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

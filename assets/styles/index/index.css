@@ -99,7 +99,7 @@
 .counter__sequence {
   font-size: 48px;
   font-weight: bold;
-  color: var(--color-gray-50);
+  color: var(--color-white);
 }
 
 .counter__right {
@@ -113,7 +113,7 @@
   text-align: center;
   font-size: 12px;
   font-weight: 600;
-  color: var(--color-gray-50);
+  color: var(--color-white);
 }
 
 /* contrib */
@@ -150,7 +150,7 @@ html ::-webkit-scrollbar-track {
 .example__label {
   font-size: 8pt;
   font-weight: bold;
-  color: var(--color-gray-50);
+  color: var(--color-white);
   width: 16px;
 }
 
@@ -194,7 +194,7 @@ html ::-webkit-scrollbar-track {
 }
 
 .contrib__day--5 {
-  background-color: var(--color-blue-100);
+  background-color: var(--color-blue-50);
 }
 
 /*               HELLO                */
@@ -230,10 +230,11 @@ html ::-webkit-scrollbar-track {
 }
 
 .news {
-  border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  border-radius: 8px;
   transition: all ease 0.5s;
 }
 
@@ -261,7 +262,6 @@ html ::-webkit-scrollbar-track {
 }
 
 .news__title.emphasis {
-  color: var(--color-blue-400);
   font-size: 36px;
 }
 
@@ -284,13 +284,13 @@ html ::-webkit-scrollbar-track {
 
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--color-gray-50);
+  color: var(--color-white);
 
   background-color: var(--color-blue-300);
 }
 
 .news__hour {
-  color: var(--color-gray-100);
+  color: var(--color-white);
 }
 
 .news__bottom,
