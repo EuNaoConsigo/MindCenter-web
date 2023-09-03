@@ -31,6 +31,7 @@
 }
 
 .search__input {
+  width: 25.6rem;
   height: 3.2rem;
 
   padding: 0.8rem 1.6rem;
@@ -84,7 +85,6 @@
 .searchbar__submit {
   border: none;
   cursor: pointer;
-  border-left: 1px solid var(--color-blue-300);
   padding: 0 1.6rem;
   border-radius: 0 0.8rem 0.8rem 0;
   background-color: var(--color-blue-400);
