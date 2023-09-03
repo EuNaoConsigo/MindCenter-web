@@ -1,0 +1,52 @@
+hgroup {
+	display: grid;
+	padding: 40px 0 16px 25px;
+}
+
+hgroup h1 {
+	color: var(--color-blue-500);
+	font-size: 3vw;
+	font-weight: bold
+}
+
+hgroup p {
+	color: var(--color-gray-200);
+	font-size: 2vw;
+	font-weight: bold
+}
+
+
+.cards {
+	display: grid;
+	justify-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+	padding: 1rem;
+}
+
+.card__text {
+	font-family: var(--font-default);
+	font-size: 35px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.cards__element {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30vw;
+	height: 20vw;
+	border-radius: 8px;
+	background-color: var(--color-blue-300);
+}
+
+
+footer {
+	background-color: var(--color-blue-400);
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+}
