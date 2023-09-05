@@ -65,6 +65,7 @@
   height: 2.4rem;
 
   position: absolute;
+  display: none;
 
   cursor: pointer;
 
