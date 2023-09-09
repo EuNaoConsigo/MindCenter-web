@@ -1,0 +1,22 @@
+.footer {
+  gap: 0.8rem;
+  width: 100vw;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__links {
+  gap: 1.6rem;
+  display: flex;
+}
+
+.footer__link {
+  color: var(--color-blue-300);
+}
+
+.footer__copywrite {
+  color: var(--color-gray-300);
+}

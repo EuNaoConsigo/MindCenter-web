@@ -10,15 +10,33 @@
 
 /*              HEADER TOP              */
 .header__top {
+  height: 4.8rem;
   display: flex;
   padding: 0 1.6rem;
   align-items: center;
   justify-content: space-between;
 }
 
-/* Logo */
-.logo {
-  width: 64px;
+/* logo */
+.header__logo {
+  gap: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo__label {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--color-blue-500);
+}
+
+.logo__label span {
+  font-weight: 900;
+  color: var(--color-blue-500);
+}
+
+.logo__icon {
+  height: 32px;
 }
 
 /* Search bar */
@@ -76,7 +94,7 @@
 
 .searchbar__clear:hover {
   background-color: var(--color-blue-500);
-  opacity: 0.4;
+  opacity: var(--hover-opacity);
 }
 
 .searchbar__clear i {
@@ -92,7 +110,7 @@
 }
 
 .searchbar__submit:hover {
-  opacity: 0.5;
+  opacity: var(--hover-opacity);
   background-color: var(--color-black);
 }
 
@@ -153,45 +171,52 @@
   justify-content: center;
 }
 
+.user__icon:hover {
+  opacity: var(--hover-opacity);
+}
+
 .user__icon i {
   color: var(--color-blue-300);
 }
 
 /*            HEADER BOTTOM            */
-
 .header__bottom {
   display: flex;
   align-items: center;
   justify-content: center;
 
   width: 100vw;
-  height: 48px;
   padding: 0 18px;
+  height: 4rem;
 
   background-color: var(--color-blue-400);
 }
 
 .nav__ul {
+  gap: 2.4rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.nav__element {
-  font-weight: bold;
-  padding: 8px 16px;
-  border-radius: 4px;
+.nav__link {
+  font-weight: 600;
+  padding: 0.8rem 0;
+
   text-decoration: none;
   color: var(--color-white);
-  border: 4px solid transparent;
+
+  transition: var(--transition);
+  border-bottom: 3px solid transparent;
 }
 
-.nav__element:hover {
-  border-bottom: 4px solid #fff;
-  color: var(--color-blue-200);
-  border-bottom-color: var(--color-blue-200);
+.nav__link:hover {
+  color: var(--color-blue-300);
+  border-bottom: 3px solid var(--color-blue-300);
 }
 
-.nav__element.activate {
-  border-bottom: 4px solid #fff;
+.nav__link.activate,
+.nav__link.activate:hover {
+  color: var(--color-white);
+  border-bottom: 3px solid var(--color-white);
 }
