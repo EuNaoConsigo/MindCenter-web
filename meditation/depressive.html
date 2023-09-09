@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meditação</title>
+    <link rel="stylesheet" href="/assets/styles/base.css" />
+    <link rel="stylesheet" href="/assets/styles/reset.css" />
+
+    <link rel="stylesheet" href="/assets/styles/header/header.css" />
+    <link rel="stylesheet" href="/assets/styles/footer/footer.css" />
+
+    <link rel="stylesheet" href="/assets/styles/meditation/meditation.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="header__logo">
+          <img
+            class="logo__icon"
+            src="/assets/images/header/logo.png"
+            alt="logo"
+          />
+        </div>
+
+        <div class="searchbar">
+          <label class="searchbar__label sr-only">Buscar</label>
+          <div class="searchbar__search">
+            <input
+              type="search"
+              id="search__input"
+              class="search__input"
+              placeholder="Buscar"
+              oninput="viewClearBtn()"
+            />
+
+            <button
+              id="searchbar__clear"
+              onclick="searchClear()"
+              class="searchbar__clear"
+            >
+              <i class="fa fa-xmark"></i>
+            </button>
+          </div>
+          <button class="searchbar__submit" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="header__right">
+          <div class="gem">
+            <div class="gem__simbol">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <p class="gem__value">0000</p>
+          </div>
+          <div class="user__icon">
+            <a class="icon" href="#">
+              <i class="fa-regular fa-user"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__bottom">
+        <nav class="header__nav">
+          <ul class="nav__ul">
+            <li class="nav__item">
+              <a class="nav__link" href="/index.html">Início</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link activate" href="choose_meditation.html"
+                >Meditação</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="/music/choose_music.html">Música</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#">Diário</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#">Consultas</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="trilha">
+        <h2 class="trilha__titulo">
+          Concentre-se na
+          <br />
+          sua respiração
+        </h2>
+      </div>
+
+      <div class="circulo"></div>
+
+      <div>
+        <h2 class="trilha__subtitulo">Inspire</h2>
+      </div>
+
+      <div class="player">
+        <div class="linha">
+          <div class="linha acima"></div>
+        </div>
+
+        <div class="controles">
+          <i class="fa-solid fa-square"></i>
+          <i class="fa-solid fa-play"></i>
+          <i class="fa-solid fa-music"></i>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/126086f037.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <audio autoplay="autoplay">
+      <source src="./songs/tired.mp3" />
+    </audio>
+  </body>
+</html>

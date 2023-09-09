@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles/base.css" />
+    <link rel="stylesheet" href="/assets/styles/reset.css" />
+
+    <link rel="stylesheet" href="/assets/styles/header/header.css" />
+    <link rel="stylesheet" href="/assets/styles/footer/footer.css" />
+
+    <link rel="stylesheet" href="/assets/styles/choose/choose.css" />
+    <link rel="stylesheet" href="/assets/styles/choose/choose_media.css" />
+    <title>Música</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="header__logo">
+          <img
+            class="logo__icon"
+            src="/assets/images/header/logo.png"
+            alt="logo"
+          />
+        </div>
+
+        <div class="searchbar">
+          <label class="searchbar__label sr-only">Buscar</label>
+          <div class="searchbar__search">
+            <input
+              type="search"
+              id="search__input"
+              class="search__input"
+              placeholder="Buscar"
+              oninput="viewClearBtn()"
+            />
+
+            <button
+              id="searchbar__clear"
+              onclick="searchClear()"
+              class="searchbar__clear"
+            >
+              <i class="fa fa-xmark"></i>
+            </button>
+          </div>
+          <button class="searchbar__submit" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="header__right">
+          <div class="gem">
+            <div class="gem__simbol">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <p class="gem__value">0000</p>
+          </div>
+          <div class="user__icon">
+            <a class="icon" href="#">
+              <i class="fa-regular fa-user"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__bottom">
+        <nav class="header__nav">
+          <ul class="nav__ul">
+            <li class="nav__item">
+              <a class="nav__link" href="/index.html">Início</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="/meditation/choose_meditation.html"
+                >Meditação</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link activate" href="choose_music.html">Música</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#">Diário</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#">Consultas</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <hgroup class="hello">
+        <h1 class="hello__title">Trilhas Sonoras</h1>
+        <h2 class="hello__subtitle">Relaxe ouvindo seu som favorito</h2>
+      </hgroup>
+
+      <section class="cards">
+        <a class="cards__card" href="lofi.html">
+          <img class="card__img" src="/assets/images/icons/lofi.png" />
+          <label class="card__title">Lo-Fi</label>
+        </a>
+
+        <a class="cards__card" href="light_rain.html">
+          <img class="card__img" src="/assets/images/icons/chuva-leve.png" />
+          <label class="card__title">Chuva leve</label>
+        </a>
+
+        <a class="cards__card" href="strong_rain.html">
+          <img class="card__img" src="/assets/images/icons/chuva-forte.png" />
+          <label class="card__title">Chuva forte</label>
+        </a>
+
+        <a class="cards__card" href="florest.html">
+          <img class="card__img" src="/assets/images/icons/floresta.png" />
+          <label class="card__title">Floresta</label>
+        </a>
+
+        <a class="cards__card" href="mystic.html">
+          <img class="card__img" src="/assets/images/icons/mistico.png" />
+          <label class="card__title">Mistico</label>
+        </a>
+
+        <a class="cards__card" href="cat.html">
+          <img class="card__img" src="/assets/images/icons/gatos.png" />
+          <label class="card__title">Gatos</label>
+        </a>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/126086f037.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <footer class="footer">
+      <div class="footer__links">
+        <a href="#" class="footer__link">Termos de uso</a>
+        <a href="#" class="footer__link">Políticas de privacidade</a>
+      </div>
+      <span class="footer__copywrite">MindCenter &copy; 2023</span>
+    </footer>
+  </body>
+</html>
