@@ -1,0 +1,390 @@
+
+/* media 992px */
+@media (min-width: 992px) and (max-width: 1200px){
+   
+    /* geral */
+   
+    .news__section {
+           flex-direction: column;
+           width: 100%;
+       }
+   
+       
+   
+   /* Tracker */
+     .tracker{
+       flex-direction: column;
+       width:100%;
+       height:80%;
+       gap: 8rem;
+       padding-top: 8rem;
+       padding-bottom: 8rem;
+     }
+   
+     .counter{
+       width: 100%;
+       height: 185px;
+       justify-content: center;
+       scale: 1.8;
+     }
+   
+     .contrib{
+       scale: 1.4;
+     }
+   
+     /*  News left*/
+     .news__left{
+       width: 98%;
+       gap: 2rem;
+     }
+     .news__secundary{
+       gap: 2rem;
+       display: flex;
+       max-width: 90%;
+     }
+     .news__bottom {
+   
+       display: flex;
+       margin-left: 30px;
+     }
+     .news__title.secundary{
+       width:30rem;
+      
+     } 
+     .news__image {
+        min-width: 300px;
+     }
+   
+     /* News Right */ 
+   
+    .news__right{
+       padding-bottom: 0.8rem;
+       width: 100%;
+       height: 70%;
+       gap: 1.6rem;
+       margin-right: 2.4rem;
+       margin-left: 2.4rem;
+       align-items: center;
+   }
+    
+    .news__right__line{
+       width: 100%;
+       height: 50%;
+       gap: 2rem;
+    }
+
+    .news__image.right{
+        min-width: 456px;
+    
+    }
+   
+    .news__title.right{
+        min-width: 456px
+    }
+
+
+    .news__item{ 
+        min-width: 480px;
+    }
+    /* Imagem principal */
+   
+    .news__image.emphasis{
+       min-width: 960px;
+       max-height: 320px;
+   
+   
+   }
+    /* Slider Inferior */
+   
+    .slider{ 
+       margin-left: 0.6rem;
+   
+   
+   }
+   
+    .slider__news-container{
+        width: 90%;
+        height: 90%;
+    }
+    
+    .slider__news{ 
+    
+        height: 28rem;
+        width: 28rem;
+        margin: 0rem;
+        margin-left: 2.4rem;
+    
+    }
+
+    .slider__news__title{
+        max-width: 32rem;
+        font-size: 1.6rem;
+    
+    }
+    
+    .slider__news__img{
+        max-width: 28rem;
+   
+    } 
+  
+   
+}
+
+/* media 768px */
+@media (min-width: 768px) and (max-width: 991px){
+       /* geral */
+      
+       .news__section {
+              flex-direction: column;
+              width: 100%;
+          }
+      
+          
+      
+      /* Tracker */
+        .tracker{
+          flex-direction: column;
+          width:100%;
+          height:60%;
+          gap: 8rem;
+          padding-top: 6rem;
+          padding-bottom: 8rem;
+        }
+      
+        .counter{
+          width: 100%;
+          height: 185px;
+          justify-content: center;
+          scale: 1.4;
+        }
+      
+        .contrib{
+          scale: 1.4;
+        }
+      
+        /*  News left*/
+        .news__left{
+          width: 95%;
+          gap: 2rem;
+        }
+        .news__secundary{
+          gap: 2rem;
+          display: flex;
+          max-width: 552px;
+        }
+        .news__bottom {
+      
+          display: none;
+        }
+        .news__title.secundary{
+          width:24rem;
+         
+        } 
+      
+        /* News Right */ 
+      
+       .news__right{
+          padding-bottom: 0.8rem;
+          width: 100%;
+          height: 70%;
+          gap: 1.6rem;
+          margin-right: 2.4rem;
+          margin-left: 2.4rem;
+          align-items: center;
+      }
+       
+       .news__right__line{
+          width: 100%;
+          height: 50%;
+          gap: 12rem;
+      
+       }
+      
+       .news__image.right{
+           min-width: 360px;
+           padding-left: 1.6rem ;
+       }
+      
+       .news__title.right{
+           min-width: 360px
+       }
+       .news__details{ 
+          padding-left: 1.6rem;
+      
+       }
+       /* Imagem principal */
+      
+       .news__image.emphasis{
+          min-width: 728px;
+          max-height: 205px;
+      
+      
+      }
+       /* Slider Inferior */
+      
+       .slider{ 
+          margin-left: 0.6rem;
+      
+      
+      }
+      
+       .slider__news-container{
+           width: 90%;
+           height: 90%;
+       }
+       
+       .slider__news{ 
+       
+           height: 28rem;
+           width: 28rem;
+           margin: 0rem;
+           margin-left: 2.4rem;
+       
+       }
+   
+       .slider__news__title{
+           max-width: 32rem;
+           font-size: 1.6rem;
+       
+       }
+       
+       .slider__news__img{
+           max-width: 28rem;
+      
+       } 
+     
+      
+  }
+   
+/* media 576px*/
+@media screen and (max-width: 576px) {
+    /* geral */
+   
+    .news__section {
+           flex-direction: column;
+           width: 100%;
+       }
+   
+       
+   
+   /* Tracker */
+     .tracker{
+       flex-direction: column;
+       width:100%;
+       height:70%;
+       gap: 8rem;
+       padding-top: 8rem;
+       padding-bottom: 8rem;
+     }
+   
+     .counter{
+       width: 100%;
+       height: 185px;
+       justify-content: center;
+       scale: 1.2;
+     }
+   
+     .contrib{
+       scale: 1.2;
+     }
+   
+     /*  News left*/
+     .news__left{
+       width: 95%;
+       gap: 2rem;
+     }
+     .news__secundary{
+       gap: 2rem;
+       display: flex;
+       max-width: 552px;
+     }
+     .news__bottom {
+   
+       display: none;
+     }
+     .news__title.secundary{
+       width:24rem;
+      
+     } 
+   
+     /* News Right */ 
+   
+    .news__right{
+       padding-bottom: 0.8rem;
+       width: 100%;
+       height: 70%;
+       gap: 1.6rem;
+       margin-right: 2.4rem;
+       margin-left: 2.4rem;
+       align-items: center;
+   }
+    
+    .news__right__line{
+       width: 100%;
+       height: 50%;
+       
+   
+    }
+   
+    .news__image.right{
+        max-width: 268px;
+        padding-left: 1.6rem ;
+    }
+   
+   
+    .news__details{ 
+       padding-left: 1.6rem;
+   
+    }
+    /* Imagem principal */
+   
+    .news__image.emphasis{
+       max-width: 552px;
+       max-height: 205px;
+   
+   
+   }
+    /* Slider Inferior */
+   
+    .slider{ 
+       margin-left: 0.6rem;
+   
+   
+   }
+   
+    .slider__news-container{
+       width: 92%;
+    }
+    .slider__news{ 
+    
+       margin-left: 7.5rem;
+       margin-right: 10rem;
+       min-height: 36rem;
+       min-width: 32rem;
+   }
+   
+   .slider__news__img{
+       min-width: 32rem;
+   }
+   
+   .slider__news__title{
+       max-width: 32rem;
+       font-size: 2.4rem;
+   
+   }
+  }
+
+    
+
+   
+
+
+     
+  
+   
+   
+   
+
+   
+
+
